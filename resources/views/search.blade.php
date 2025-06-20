@@ -153,7 +153,7 @@
                     if(params.size > 0)
                         window.location.href = `/search?${params.toString()}`
                     else
-                        window.location.href = "{{ route('vehicles') }}"
+                        window.location.href = "{{ route('vehicles') }}";
                 })
             });
         })
